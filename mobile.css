@@ -1,0 +1,76 @@
+@media only screen and (max-width:600px){ 
+    
+    .about-content h5{
+        font-size: 18px;
+    }
+    .about-footer{
+        flex-direction: column;
+        line-height: 4;
+    }
+    .about-image img{
+        max-width: 100%;
+        height: 400px;
+       }
+       #left-side{
+        text-align: left;
+        /* margin-left: 35px; */
+       }
+       .clients{
+        flex-direction: column;
+        align-items: center;
+       padding-top: 30px;
+    }
+    .clients-area{
+        display: flex;
+        height: 600px;
+        align-items: center;
+    }
+    .clients .item{
+        margin-top: 30px;
+    }
+    .button{
+        width: 100% ;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        background-color: #b636ff;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+    #message{
+        width: 100%;
+       padding-bottom: 200px;
+    }
+    #subject{
+        width: 100%;
+    }
+    #name,#email{
+        width: 100%;
+    }
+    .skillds{
+        width: 100%;
+    }
+    .contact-address{
+        margin-left: 0px;
+        color: gray;
+    }
+    form{
+        margin-left: 0px;
+    }
+    #left-side{
+        margin-left: 0px;
+    }
+    #right-side{
+        padding-left: 10px;
+    }
+    .year{
+        padding-bottom: 0px;
+    }
+    #navbarSupportedContent{
+        padding-left: 0px;
+    }
+}
